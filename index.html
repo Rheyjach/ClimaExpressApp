@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaExpress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1>ClimaExpress</h1>
+    </header>
+    <!--Cuerpo de la App-->
+    <div class="container">
+        <h2>Ingresa la ciudad</h2>
+        <input type="text" id="ciudad" maxlength="20" size="10" placeholder="Ej: Bogota"><br>
+        <input type="submit" value="Solicitar Datos" onclick="obtenerDatos()" id="boton" disabled>
+        <div id="informacion"></div>
+    </div>
+    <footer>©2025 - Rheyjach Arrieta Delgado</footer>
+    <!--Conexion con JavaScript-->
+    <script src="clima.js"></script>
+</body>
+</html>
